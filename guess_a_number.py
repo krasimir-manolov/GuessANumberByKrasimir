@@ -15,6 +15,8 @@ while True:
         print('You guess it!')
         if counter <= 3:
             print('Excellent!!!')
+        elif counter <= 5:
+            print('Congratulations')
         else:
             print('Good job!')
         print(f'Number of attempts: {counter}')
