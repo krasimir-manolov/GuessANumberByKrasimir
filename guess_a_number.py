@@ -13,7 +13,7 @@ while True:
     player_number = int(player_input)
     if player_number == computer_number:
         print('You guess it!')
-        if counter < 3:
+        if counter <= 3:
             print('Excellent!!!')
         else:
             print('Good job!')
