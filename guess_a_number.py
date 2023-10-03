@@ -23,3 +23,4 @@ while True:
         print('Too Hight!')
     else:
         print('Too Low!')
+        print(':(')
